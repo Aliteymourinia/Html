@@ -1,0 +1,25 @@
+body {
+  background-image: url(peakpx.jpg);
+  background-size: cover;
+}
+nav {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+h1 {
+  color: red;
+  text-align: center;
+  border: 5px solid brown;
+}
+
+h2 {
+  color: blue;
+}
+
+li {
+  display: block;
+}
+
+.web {
+  color: green;
+}
