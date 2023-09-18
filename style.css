@@ -1,0 +1,43 @@
+h3 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+input {
+  display: block;
+}
+button {
+  all: unset;
+}
+label {
+  display: block;
+  text-transform: capitalize;
+}
+label[for="password"] {
+  margin-top: 1em;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 260px;
+  font-size: 10px;
+}
+.login {
+  margin-top: 25px;
+  background: linear-gradient(
+    -90deg,
+    rgb(137, 137, 145) 0%,
+    rgb(133, 23, 187) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  text-align: center;
+  padding-block: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  border-radius: 3px;
+}
+.forgot {
+  color: dodgerblue;
+  margin-top: 3px;
+}
