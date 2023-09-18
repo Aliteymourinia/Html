@@ -22,7 +22,7 @@ form {
   padding-inline: 260px;
   font-size: 10px;
 }
-.login {
+.btn {
   margin-top: 25px;
   background: linear-gradient(
     -90deg,
@@ -36,6 +36,10 @@ form {
   text-transform: uppercase;
   font-family: sans-serif;
   border-radius: 3px;
+}
+.btn:hover {
+  outline: 2px solid red;
+  color: red;
 }
 .forgot {
   color: dodgerblue;
