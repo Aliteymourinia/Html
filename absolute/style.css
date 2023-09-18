@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+div {
+  position: relative;
+  display: inline;
+}
+div > span {
+  position: absolute;
+  font-size: 9px;
+  top: 50%;
+  right: 50%;
+  color: red;
+  background-color: yellow;
+}
