@@ -15,6 +15,7 @@ label {
   align-items: center;
   text-transform: capitalize;
   transition: color 200ms ease;
+  cursor: pointer;
 }
 label:hover {
   color: white;
