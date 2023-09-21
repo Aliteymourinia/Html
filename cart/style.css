@@ -4,8 +4,7 @@ html {
 body {
   height: 100%;
   margin: 0;
-}
-section {
+}section {
   height: 100%;
   display: flex;
   justify-content: center;
