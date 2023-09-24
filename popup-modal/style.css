@@ -1,0 +1,75 @@
+html {
+  margin: 0;
+}
+
+body {
+  background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg)
+    no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: #06d85f;
+  font-family: tahoma, Arial, Helvetica, sans-serif;
+  font-size: 2.5em;
+  margin-top: 100px;
+  text-align: center;
+  white-space: nowrap;
+}
+.box {
+  width: 40px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  padding: 6em 15em;
+  margin-top: 5em;
+}
+button {
+  width: 200px;
+  height: 50px;
+  font-size: 1.5em;
+  color: white;
+  background-color: rgb(19, 151, 91);
+  border-radius: 10px/10px;
+  border: none;
+  border-style: groove;
+  margin-inline: -3.5em;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  }
+button:hover{
+    background: #000000;
+}
+.popup {
+  /* background-color: beige;
+  width: 350px;
+  height: 250px;
+  position: fixed;
+  top: 7rem;
+  left: 23rem;
+  border-radius: 0.5em;
+  & h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-inline: 0.2em; */
+  }
+
+  & p {
+    font-size: 20px;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
