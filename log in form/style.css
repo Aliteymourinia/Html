@@ -1,6 +1,5 @@
 div {
   display: flex;
-  justify-items: center;
   align-items: center;
   flex-direction: column;
   gap: 1em;
@@ -10,7 +9,7 @@ div {
   padding: 1em;
   width: 20em;
   border-radius: 2em;
-  border-style: double;
+  border-style:groove;
   border-color: darkgrey;
 }
 #Login {
