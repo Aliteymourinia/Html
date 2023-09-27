@@ -27,4 +27,9 @@ div {
 /* inja ba flex login kochick tar dar miamad */
 #Login:hover {
   background-color: rgb(39, 165, 75);
+  transition: ease 300ms;
+}
+#Login:not(:hover) {
+  background-color: #185c37;
+  transition: 300ms;
 }
