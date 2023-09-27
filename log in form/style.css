@@ -1,20 +1,28 @@
+/* * {
+  box-sizing: border-box;
+} */
 div {
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 1em;
 }
+input {
+  padding: 0;
+}
 #email,
 #psw {
   padding: 1em;
   width: 20em;
   border-radius: 2em;
-  border-style:groove;
+  border-style: groove;
   border-color: darkgrey;
 }
 #Login {
   padding: 1em;
-  width: 22.2em;
+  display: block;
+  width: 20em;
+
   background-color: #185c37;
   color: white;
   border: 0;
@@ -22,6 +30,9 @@ div {
   cursor: pointer;
   height: 3.4em;
   margin-top: 0.6em;
+}
+.wraper {
+  width: 20em;
 }
 /* inja ba flex login kochick tar dar miamad */
 #Login:hover {
@@ -31,5 +42,5 @@ div {
 #Login:not(:hover) {
   background-color: #185c37;
   transition: width 1s;
-  width: 200px;
+  /* width: 200px; */
 }
