@@ -35,7 +35,6 @@ button {
   background-color: rgb(19, 151, 91);
   border-radius: 10px/10px;
 
-  border-style: groove;
   margin-inline: -3.5em;
   cursor: pointer;
   transition: all 0.3s ease-out;
@@ -43,6 +42,13 @@ button {
 button:hover {
   background: #000000;
 }
+#closeModal{
+background-color: transparent;
+color: #000000;
+position: fixed;
+left: 87%;
+}
+
 .popup {
   scale: 0;
   background-color: rgb(246, 246, 246);
